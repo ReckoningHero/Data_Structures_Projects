@@ -1,0 +1,19 @@
+int covert(string x)
+
+{
+
+        if(x,length() == 1)
+
+            return x.charAt(0)-48;
+
+       else
+
+       {
+
+             int char = x.charAt(x.length() - 1) - 48;
+
+             return x + 10*convert(s.substring(0,x.length() -1));//Goes back one step to covert the num to comma and                                                                                       print it
+
+        }
+
+}
